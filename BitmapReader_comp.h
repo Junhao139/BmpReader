@@ -207,8 +207,6 @@ bool BMPreader::Bitmap::readBitmapInfoHeader() {
 		this->infoHeader->biClrImportant = (unsigned long)getValue(&filePtr[36], 4);
 		return true;
 		break;
-		//default:
-			//return false;
 	}
 }
 
