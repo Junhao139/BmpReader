@@ -37,7 +37,7 @@ typedef struct BITMAPINFOHEADER {
   LONG  biWidth;		// BMP 图片的 width(像素)
   LONG  biHeight;		// BMP 图片的 height(像素)
   WORD  biPlanes;		// BMP 图片的 Plane 数量, 应为 1
-  WORD  biBitCount;		// 
+  WORD  biBitCount;		
   DWORD biCompression;
   DWORD biSizeImage;
   LONG  biXPelsPerMeter;
